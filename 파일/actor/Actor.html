@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Actor test</title>
+</head>
+<body>
+
+<form action="./ActorInsert.jsp" method="post">
+	<h3>Insert</h3>
+	Actor ssn : <input type="text" name="assn" required><br><br>
+	Actor name : <input type="text" name="aname" required><br><br>
+	Director_Dssn : <input type="text" name="dssn"><br><br>
+	Producer_Pssn : <input type="text" name="pssn">
+	<input type="submit" value="ok">
+</form>
+<form action="./ActorSelect.jsp" method="post">
+	<h3>Select</h3>
+	Actor ssn : <input type="text" name="assn" required>
+	<input type="submit" value="ok">
+</form>
+<form action="./ActorUpdate.jsp" method="post">
+	<br><h3>Update</h3>
+	Actor ssn : <input type="text" name="assn" required><br><br>
+	Actor name : <input type="text" name="aname" required><br><br>
+	Director_Dssn : <input type="text" name="dssn"><br><br>
+	Producer_Pssn : <input type="text" name="pssn">
+	<input type="submit" value="ok">
+</form>
+<form action="./ActorDelete.jsp" method="post">
+	<br><h3>Delete</h3>
+	Actor ssn : <input type="text" name="assn" required>
+	<input type="submit" value="ok">
+</form>
+</body>
+</html>

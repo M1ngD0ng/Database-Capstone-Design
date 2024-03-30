@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Movie test</title>
+</head>
+<body>
+
+<form action="./MovieInsert.jsp" method="post">
+	<h3>Insert</h3>
+	Movie id : <input type="text" name="id" required><br><br>
+	Movie title : <input type="text" name="title" required><br><br>
+	Director_Dssn : <input type="text" name="dssn">
+	<input type="submit" value="ok">
+</form>
+<form action="./MovieSelect.jsp" method="post">
+	<br><h3>Select</h3>
+	Movie id : <input type="text" name="id" required>
+	<input type="submit" value="ok">
+</form>
+<form action="./MovieUpdate.jsp" method="post">
+	<br><h3>Update</h3>
+	Movie id : <input type="text" name="id" required><br><br>
+	Movie title : <input type="text" name="title" required><br><br>
+	Director_Dssn : <input type="text" name="dssn">
+	<input type="submit" value="ok">
+</form>
+<form action="./MovieDelete.jsp" method="post">
+	<br><h3>Delete</h3>
+	Movie id : <input type="text" name="id" required>
+	<input type="submit" value="ok">
+</form>
+</body>
+</html>
